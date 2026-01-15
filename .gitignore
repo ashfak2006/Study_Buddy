@@ -1,3 +1,5 @@
 /Mlenv
 .env
 /tempDir
+/texsummurising.py
+/__pycache__/

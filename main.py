@@ -58,7 +58,7 @@ with st.sidebar:
 
     if uploaded_pdf:
         st.write(f"Uploaded PDF: {uploaded_pdf.name}")
-       
+        os.mkdir("tempDir", exist_ok=True)
         file_path = os.path.join("tempDir", uploaded_pdf.name)
         with open(file_path, "wb") as f:
             f.write(uploaded_pdf.read())
