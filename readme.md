@@ -46,7 +46,6 @@ This project leverages **Python**, **T5-small** for summarization, **Gemini API*
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/study-buddy.git
-   cd study-buddy
 2. Install dependencies:
     ```bash
     pip install -r requirements.txt
